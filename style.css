@@ -26,3 +26,8 @@ body {
 #controls {
     margin-bottom: 20px;
 }
+
+#resize-grid {
+    padding: 10px 20px; /* Adds padding for better visibility */
+    font-size: 16px; /* Makes the text easier to read */
+}
