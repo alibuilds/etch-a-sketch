@@ -1,0 +1,28 @@
+/* General page layout */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the grid */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+    border: 1px solid black;
+}
+
+/* Grid squares */
+.square {
+    box-sizing: border-box;
+}
+
+/* Controls styling */
+#controls {
+    margin-bottom: 20px;
+}
